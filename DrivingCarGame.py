@@ -90,11 +90,7 @@ def displayTries(tries):
 	triesGraphic = myfont.render(triesText, 1, yellow)
 	gameDisplay.blit(triesGraphic, (0, 0))
 
-"""q learning learns by choosing some action and looking at the new state that it is in
-if this state is better, the reward will be higher. if state is worse, a punishment may happen
-for this case, reward may be a function of how the sensors vals/threat levels changed 
-(would have to make a better threat function). could be based upon distances of sensors
-to center of obstacles"""
+
 def game_loop():
 	gameExit = False
 
